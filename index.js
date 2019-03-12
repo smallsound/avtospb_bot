@@ -42,3 +42,6 @@ ik
 		{ text: "2:1 button", callback_data: "Works!" },
 		{ text: "2:2 button", callback_data: "Works!" }
 	);
+
+
+bot.on("polling_error", (err) => console.log(err));
